@@ -1,8 +1,8 @@
 <?php
 /**
- * Default English lexicon topic
+ * Default Spanish lexicon topic
  *
- * @language en
+ * @language es
  * @package modx
  * @subpackage lexicon
  */
@@ -148,7 +148,7 @@ $_lang['err_self_parent'] = '¡No puedes hacer que algo sea su propio padre!';
 $_lang['error'] = 'Error';
 $_lang['error_sending_email'] = 'Error enviando email';
 $_lang['error_sending_email_to'] = 'Error mientra se mandaba un email a ';
-$_lang['error_loading_feed'] = 'An error occurred loading the feed.';
+$_lang['error_loading_feed'] = 'Se produjo un error al cargar el feed (suministro).';
 $_lang['event_id'] = 'ID del Evento';
 $_lang['existing_category'] = 'Categoría Existente';
 $_lang['expand_all'] = 'Expandir Todos';
@@ -177,11 +177,11 @@ $_lang['ext_invalidfield'] = 'El valor en este campo no es válido.';
 $_lang['ext_last'] = 'Última Página';
 $_lang['ext_mindate'] = 'Esta fecha es anterior a la fecha mínima.';
 $_lang['ext_minlenfield'] = 'La longitud mínima para este campo es {minLength}';
-$_lang['ext_minlenmaxfield'] = 'The minimum length can not be more than maximum length';
+$_lang['ext_minlenmaxfield'] = 'La longitud mínima no puede ser mayor que la longitud máxima';
 $_lang['ext_minvalfield'] = 'El valor mínimo para este campo es {0}';
 $_lang['ext_maxdate'] = 'Esta fecha es posterior a la fecha máxima.';
 $_lang['ext_maxlenfield'] = 'La longitud máxima para este campo es {maxLength}';
-$_lang['ext_maxlenminfield'] = 'The maximum length can not be less than minimum length';
+$_lang['ext_maxlenminfield'] = 'La longitud máxima no puede ser inferior a la longitud mínima.';
 $_lang['ext_maxvalfield'] = 'El valor máximo para este campo es {0}';
 $_lang['ext_nanfield'] = '{0} no es un número válido.';
 $_lang['ext_next'] = 'Página Siguiente';
@@ -490,9 +490,9 @@ $_lang['tree_refresh'] = 'Recargar árbol';
 $_lang['tree_sort'] = 'Ordenar árbol';
 $_lang['tv'] = 'VdP';
 $_lang['tv_default'] = 'Valor por Defecto';
-$_lang['tv_default_desc'] = 'The default value will be stored if the user does not specify a value.';
+$_lang['tv_default_desc'] = 'El valor predeterminado se almacenará si el usuario no especifica un valor.';
 $_lang['tv_elements'] = 'Valores de Opciones de Entrada';
-$_lang['tv_elements_desc'] = 'Option values for TVs with multiple selectable items, such as dropdown or tag (separate options with ||, e.g. Cat||Dog or White==#ffffff||Black==#000000).';
+$_lang['tv_elements_desc'] = 'Valores de opciones para VdP con múltiples elementos seleccionables, como menú desplegable o etiqueta (opciones separadas con ||, por ejemplo, Gato||Perro o Blanco==#ffffff||Negro==#000000).';
 $_lang['tv_type'] = 'Tipo de Entrada';
 $_lang['tv_value_inherited'] = 'Valor heredado';
 $_lang['type'] = 'Tipo';

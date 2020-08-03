@@ -1,8 +1,8 @@
 <?php
 /**
- * File English lexicon topic
+ * File Spanish lexicon topic
  *
- * @language en
+ * @language es
  * @package modx
  * @subpackage lexicon
  */
@@ -19,7 +19,7 @@ $_lang['file_copy_path'] = 'Copy File Path';
 $_lang['file_edit'] = 'Editar Archivo';
 $_lang['file_err_ae'] = 'El archivo %s ya existe';
 $_lang['file_err_chmod'] = 'Ocurrió un error desconocido mientras se trataba de cambiar los permisos del fichero seleccionado.';
-$_lang['file_err_chmod_invalid'] = 'An invalid chmod value was passed while trying to chmod the target.';
+$_lang['file_err_chmod_invalid'] = 'Se pasó un valor chmod no válido al intentar cambiar los permisos del archivo.';
 $_lang['file_err_chmod_ns'] = 'Por favor, especifica los permisos que deseas aplicarle al fichero.';
 $_lang['file_err_create'] = 'Ocurrió un error desconocido mientras se creaba el archivo.';
 $_lang['file_err_ext_not_allowed'] = 'La extensión de archivo "[[+ext]]" no está permitida.';
@@ -46,12 +46,12 @@ $_lang['file_folder_create'] = 'Crear carpeta';
 $_lang['file_folder_create_here'] = 'Crear carpeta aquí';
 $_lang['file_folder_created'] = '¡Carpeta creada con éxito!';
 $_lang['file_folder_deleted'] = '¡La carpeta fue eliminada con éxito!';
-$_lang['file_folder_copy_path'] = 'Copy Folder Path';
+$_lang['file_folder_copy_path'] = 'Copiar ruta de la carpeta';
 $_lang['file_folder_err_ae'] = 'Ya existe una carpeta con ese nombre.';
 $_lang['file_folder_err_chmod'] = 'No se pudieron cambiar los permisos.  Necesitarás modificarlos desde el propio servidor.';
 $_lang['file_folder_err_create'] = 'Ocurrió un error desconocido mientras se trataba de crear la carpeta.';
 $_lang['file_folder_err_invalid'] = 'El elemento especificado no es una carpeta.';
-$_lang['file_folder_err_invalid_path'] = 'La ruta ruta especificada para crear la nueva carpeta no es válida.';
+$_lang['file_folder_err_invalid_path'] = 'La ruta especificada para crear la nueva carpeta no es válida.';
 $_lang['file_folder_err_nf'] = '¡La carpeta no existe!';
 $_lang['file_folder_err_ns'] = 'Por favor, especifica una carpeta válida.';
 $_lang['file_folder_err_ns_name'] = 'Por favor, especifica un nombre válido para la carpeta.';
@@ -123,18 +123,18 @@ $_lang['upf_uploading_desc'] = 'Subiendo: {0} de {1} archivos completados.';
 $_lang['upload_files'] = 'Subir archivos';
 $_lang['no_file_err'] = 'No se subió ningún archivo.';
 
-$_lang['upload.buttons.choose']           = 'Seleccionar fichero(s)';
-$_lang['upload.buttons.clear']            = 'Lista vacía';
-$_lang['upload.buttons.upload']           = 'Subir';
-$_lang['upload.buttons.close']            = 'Cerrar';
-$_lang['upload.title.destination_path']   = 'Ruta de destino: [[+path]]';
-$_lang['upload.upload_progress']          = '[[+loaded]] / [[+total]]';
-$_lang['upload.notpermitted.extension']   = '¡La subida de ficheros de este tipo (.[[+ext]]) no está permitida!';
-$_lang['upload.notpermitted.filesize']    = '¡El tamaño del fichero ([[+size]]) es mayor del permitido! (máx. [[+max]])';
-$_lang['upload.columns.file']             = 'Archivo';
-$_lang['upload.columns.state']            = 'Estado';
+$_lang['upload.buttons.choose'] = 'Seleccionar fichero(s)';
+$_lang['upload.buttons.clear'] = 'Lista vacía';
+$_lang['upload.buttons.upload'] = 'Subir';
+$_lang['upload.buttons.close'] = 'Cerrar';
+$_lang['upload.title.destination_path'] = 'Ruta de destino: [[+path]]';
+$_lang['upload.upload_progress'] = '[[+loaded]] / [[+total]]';
+$_lang['upload.notpermitted.extension'] = '¡La subida de ficheros de este tipo (.[[+ext]]) no está permitida!';
+$_lang['upload.notpermitted.filesize'] = '¡El tamaño del fichero ([[+size]]) es mayor del permitido! (máx. [[+max]])';
+$_lang['upload.columns.file'] = 'Archivo';
+$_lang['upload.columns.state'] = 'Estado';
 $_lang['upload.contextmenu.remove_entry'] = 'Eliminar entrada';
-$_lang['upload.clear_list.all']           = 'Limpiar lista';
-$_lang['upload.clear_list.notpermitted']  = 'Quitar solo ficheros no permitidos';
-$_lang['upload.msg.title.error']          = 'Error';
-$_lang['upload.upload.success']           = 'Subida de archivos satisfactoria';
+$_lang['upload.clear_list.all'] = 'Limpiar lista';
+$_lang['upload.clear_list.notpermitted'] = 'Quitar solo ficheros no permitidos';
+$_lang['upload.msg.title.error'] = 'Error';
+$_lang['upload.upload.success'] = 'Subida de archivos satisfactoria';

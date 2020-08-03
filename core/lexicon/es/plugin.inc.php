@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin English lexicon topic
+ * Plugin Spanish lexicon topic
  *
- * @language en
+ * @language es
  * @package modx
  * @subpackage lexicon
  */
@@ -24,7 +24,7 @@ $_lang['plugin_duplicate_confirm'] = '¿Estás seguro de que quieres duplicar es
 $_lang['plugin_err_create'] = 'Ocurrió un error mientras se creaba el plugin.';
 $_lang['plugin_err_ae'] = 'Ya existe un plugin con el nombre "[[+name]]".';
 $_lang['plugin_err_invalid_name'] = 'El nombre del Plugin no es válido.';
-$_lang['plugin_err_duplicate'] = 'An error occurred while trying to duplicate the plugin.';
+$_lang['plugin_err_duplicate'] = 'Se produjo un error al intentar duplicar el plugin.';
 $_lang['plugin_err_nf'] = '¡Plugin no encontrado!';
 $_lang['plugin_err_ns'] = '¡Plugin no especificado.';
 $_lang['plugin_err_ns_name'] = 'Por favor, especifica un nombre para el plugin.';
@@ -38,7 +38,7 @@ $_lang['plugin_event_err_save'] = 'Ocurrió un error mientras se guardaba el eve
 $_lang['plugin_event_msg'] = 'Selecciona los eventos que este plugin escuchará.';
 $_lang['plugin_event_plugin_remove_confirm'] = '¿Estás seguro de que quieres eliminar este plugin de este evento?';
 $_lang['plugin_event_update'] = 'Actualizar Evento del Plugin';
-$_lang['plugin_lock'] = 'Plugin locked for editing';
+$_lang['plugin_lock'] = 'Plugin con edición bloqueada';
 $_lang['plugin_lock_msg'] = 'Los usuarios deben tener el atributo edit_locked para poder editar este plugin.';
 $_lang['plugin_locked_message'] = 'Este plugin está bloqueado para su edición.';
 $_lang['plugin_management_msg'] = 'Aquí puedes elegir el plugin a editar.';

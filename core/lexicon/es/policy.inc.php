@@ -1,8 +1,8 @@
 <?php
 /**
- * Access Policy English lexicon topic
+ * Access Policy Spanish lexicon topic
  *
- * @language en
+ * @language es
  * @package modx
  * @subpackage lexicon
  */
