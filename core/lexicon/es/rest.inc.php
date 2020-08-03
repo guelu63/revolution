@@ -1,8 +1,8 @@
 <?php
 /**
- * REST lexicon topic
+ * REST Spanish lexicon topic
  *
- * @language en
+ * @language es
  * @package modx
  * @subpackage lexicon
  */

@@ -1,8 +1,8 @@
 <?php
 /**
- * Top Menu English lexicon topic
+ * Top Menu Spanish lexicon topic
  *
- * @language en
+ * @language es
  * @package modx
  * @subpackage lexicon
  */
@@ -30,7 +30,7 @@ $_lang['dashboards_desc'] = 'Gestionar la configuración de los resúmenes.';
 $_lang['edit_menu'] = 'Menús';
 $_lang['edit_menu_desc'] = 'Administrar acciones y la estructura del menú principal.';
 $_lang['eventlog_viewer'] = 'Historial de Errores';
-$_lang['eventlog_viewer_desc'] = 'View the MODX error log';
+$_lang['eventlog_viewer_desc'] = 'Ver el registro de errores de MODX';
 $_lang['export_site'] = 'Exportar HTML Estático';
 $_lang['export_site_desc'] = 'Export the current site into static HTML pages';
 $_lang['file_browser'] = 'Navegador de Recursos Multimedia';
@@ -96,7 +96,7 @@ $_lang['reports_desc'] = 'Registro de administración de MODX';
 $_lang['resource_groups'] = 'Grupos de Recursos';
 $_lang['resource_groups_desc'] = 'Asignar los grupos a los que pertenecen los recursos';
 $_lang['search'] = 'Buscar';
-$_lang['search_desc'] = 'Search for resources';
+$_lang['search_desc'] = 'Busca recursos';
 $_lang['search_resulttype_actions'] = 'Acciones';
 $_lang['search_resulttype_chunks'] = 'Chunks';
 $_lang['search_resulttype_plugins'] = 'Plugins';
@@ -113,7 +113,7 @@ $_lang['sources_desc'] = 'Gestiona tus recursos multimedia.';
 $_lang['support'] = 'Soporte';
 $_lang['support_desc'] = '';
 $_lang['site_schedule'] = 'Calendario del Sitio';
-$_lang['site_schedule_desc'] = 'View Resources with upcoming publish or unpublish dates';
+$_lang['site_schedule_desc'] = 'Ver recursos con las próximas fechas de publicación o despublicación';
 $_lang['system'] = 'Sistema';
 $_lang['system_settings'] = 'Configuración del Sistema';
 $_lang['system_settings_desc'] = 'Cambiar o crear configuración de sistema para todo el sitio.';
@@ -130,8 +130,8 @@ $_lang['user_management_desc'] = 'Añadir, actualizar, y asignar permisos a usua
 $_lang['user_group_management'] = 'Listas de Control de Acceso';
 $_lang['user_group_management_desc'] = 'Administrar grupos de usuarios, roles y políticas de acceso.';
 $_lang['view_logging'] = 'Manager log';
-$_lang['view_logging_desc'] = 'View the recent manager activity';
+$_lang['view_logging_desc'] = 'Ver la actividad reciente del Manager';
 $_lang['view_sysinfo'] = 'Información del Sistema';
-$_lang['view_sysinfo_desc'] = 'View server information, such as phpinfo, database info, and more';
+$_lang['view_sysinfo_desc'] = 'Ver información del servidor, como phpinfo, información de la base de datos y más';
 $_lang['wiki'] = 'Wiki';
-$_lang['wiki_desc'] = 'Launch the official MODX documentation';
+$_lang['wiki_desc'] = 'Abrir la documentación oficial de MODX';

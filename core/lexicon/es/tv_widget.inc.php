@@ -1,8 +1,8 @@
 <?php
 /**
- * TV Widget English lexicon topic
+ * TV Widget Spanish lexicon topic
  *
- * @language en
+ * @language es
  * @package modx
  * @subpackage lexicon
  */

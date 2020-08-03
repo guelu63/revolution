@@ -1,8 +1,8 @@
 <?php
 /**
- * Sources English lexicon topic
+ * Sources Spanish lexicon topic
  *
- * @language en
+ * @language es
  * @package modx
  * @subpackage lexicon
  */

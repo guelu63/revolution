@@ -1,8 +1,8 @@
 <?php
 /**
- * Workspace English lexicon topic
+ * Workspace Spanish lexicon topic
  *
- * @language en
+ * @language es
  * @package modx
  * @subpackage lexicon
  */
@@ -142,20 +142,20 @@ $_lang['package_update_to_version'] = 'Por favor, selecciona la versión a la cu
 $_lang['package_upload'] = 'Subir Paquete';
 $_lang['package_version_remove'] = 'Eliminar la Versión del Paquete';
 $_lang['package_version_remove_confirm'] = '¿Estás seguro de querer eliminar las entradas en la base de datos y los archivos de instalación para esta versión anterior? Hacerlo impedirá deshacer los cambios y volver a esta versión.';
-$_lang['package_versions_purge'] = 'Purge Old Package Versions';
-$_lang['package_versions_purge_confirm'] = 'Are you sure you want to purge all old versions of this package? This is permanent.';
-$_lang['package_versions_purge_info_success'] = 'Old package versions successfully purged.';
+$_lang['package_versions_purge'] = 'Purgar versiones anteriores del paquete';
+$_lang['package_versions_purge_confirm'] = '¿Estás seguro de que desea purgar todas las versiones antiguas de este paquete? Esto es permanente';
+$_lang['package_versions_purge_info_success'] = 'Las versiones anteriores del paquete se purgaron correctamente.';
 $_lang['package_view'] = 'Ver Paquete';
-$_lang['packagename_err_nf'] = 'Packagename not found.';
-$_lang['packagename_err_ns'] = 'Packagename not specified.';
+$_lang['packagename_err_nf'] = 'Nombre de paquete no encontrado.';
+$_lang['packagename_err_ns'] = 'Nombre de paquete no especificado.';
 $_lang['packages'] = 'Paquetes';
 $_lang['packages_in_category'] = 'Debajo se encuentra una lista de paquetes disponibles en la Categoría seleccionada.';
 $_lang['packages_browse_msg'] = 'Haz Click en detalles en el paquete para obtener más información. Haz Click en Descargar para descargar el paquete a la instalación de MODX Revolution.';
 $_lang['packages_desc'] = 'Los Paquetes son colecciones de componentes de MODX que pueden ser usados de diversas maneras. Aquí se pueden administrar, actualizar el estado de instalación, deshabilitar o habilitar paquetes instalados, o descargar paquetes nuevos desde proveedores remotos.';
-$_lang['packages_purge'] = 'Purge Old Packages';
-$_lang['packages_purge_confirm'] = 'Are you sure you want to purge all old packages? This is permanent.';
-$_lang['packages_purge_info_gpurge'] = 'Grabbing package \'[[+signature]]\' to purge...';
-$_lang['packages_purge_info_success'] = 'Old packages successfully purged.';
+$_lang['packages_purge'] = 'Purgar paquetes viejos';
+$_lang['packages_purge_confirm'] = '¿Seguro que quieres purgar todos los paquetes antiguos? Esto es permanente';
+$_lang['packages_purge_info_gpurge'] = 'Cogiendo el paquete \'[[+signature]]\' para purgar ...';
+$_lang['packages_purge_info_success'] = 'Paquetes viejos purgados con éxito.';
 $_lang['please_wait'] = 'Por favor espera...';
 $_lang['preexisting_mode_preserve'] = 'Preservar';
 $_lang['preexisting_mode_preserve_desc'] = 'Esto desinstalará la versión más reciente, conservando la anterior, pero también se conservará cualquier configuracion o valor nuevo para el componente.';
@@ -195,7 +195,7 @@ $_lang['providers'] = 'Proveedores';
 $_lang['providers_desc'] = 'Los proveedores son repositorios para paquetes de componentes de MODX. Son URLs remotas que contienen listas de paquetes de MODX, los cuales pueden ser descargados e instalados para ampliar las funcionalidades del sistema.';
 $_lang['provisioner'] = 'Suministrador';
 $_lang['provisioners'] = 'Suministradores';
-$_lang['readme'] = 'Readme';
+$_lang['readme'] = 'Léeme';
 $_lang['readme_desc'] = 'Por favor revisa el archivo README de este paquete.';
 $_lang['released'] = 'Publicado';
 $_lang['released_on'] = 'Publicado En';
@@ -208,10 +208,10 @@ $_lang['sort_by_dots'] = 'Ordenar Por...';
 $_lang['supports_db'] = 'Bases de Datos Soportadas';
 $_lang['template_already_downloaded'] = 'Paquete ya descargado';
 $_lang['template_preview_view'] = 'Vista Previa del Paquete: {name}';
-$_lang['template_select_desc'] = 'Select a package to see more information';
-$_lang['templates_in_category'] = 'Viewing available packages in the selected Category.';
+$_lang['template_select_desc'] = 'Selecciona un paquete para ver más información';
+$_lang['templates_in_category'] = 'Ver paquetes disponibles en la categoría seleccionada.';
 $_lang['top_rated'] = 'Mejor Valorados';
-$_lang['featured'] = 'Featured';
+$_lang['featured'] = 'Destacados';
 $_lang['transport_package_create'] = 'Crear nuevo paquete';
 $_lang['transport_package_install'] = 'Instalar paquete';
 $_lang['transport_package_scan_for_updates'] = 'Revisar si hay actualizaciones';
@@ -230,11 +230,11 @@ $_lang['workspace_scan_for_updates'] = 'Buscar actualizaciones de paquete';
 $_lang['view_details'] = 'Ver Detalles';
 $_lang['viewing_templates_available'] = 'Ver Plantillas disponibles en la Categoría seleccionada.';
 $_lang['version'] = 'Versión';
-$_lang['dependencies'] = 'Dependencies';
-$_lang['install_dependencies_first'] = 'Install all dependencies to continue';
+$_lang['dependencies'] = 'Dependencias';
+$_lang['install_dependencies_first'] = 'Instala todas las dependencias para continuar';
 $_lang['php'] = 'PHP';
-$_lang['php_constraints'] = 'Please change the PHP version your site runs with to a version that suits the constraints.';
+$_lang['php_constraints'] = 'Cambia la versión de PHP con la que se ejecuta tu sitio a una versión que se ajuste a las restricciones.';
 $_lang['modx'] = 'MODX';
-$_lang['modx_constraints'] = 'Please change the MODX version of your site to a version that suits the constraints.';
-$_lang['available'] = 'Available';
-$_lang['not_available'] = 'Not available';
+$_lang['modx_constraints'] = 'Cambia la versión de MODX de tu sitio a una versión que se ajuste a las restricciones.';
+$_lang['available'] = 'Disponible';
+$_lang['not_available'] = 'No disponible';
