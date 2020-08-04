@@ -1,8 +1,8 @@
 <?php
 /**
- * Trash Spanish lexicon topic
+ * Trash English lexicon topic
  *
- * @language es
+ * @language en
  * @package modx
  * @subpackage lexicon
  */

@@ -1,8 +1,8 @@
 <?php
 /**
- * Login Spanish lexicon topic
+ * Login English lexicon topic
  *
- * @language es
+ * @language en
  * @package modx
  * @subpackage lexicon
  */

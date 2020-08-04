@@ -1,8 +1,8 @@
 <?php
 /**
- * Workspace Spanish lexicon topic
+ * Workspace English lexicon topic
  *
- * @language es
+ * @language en
  * @package modx
  * @subpackage lexicon
  */

@@ -2,7 +2,7 @@
 /**
  * Import Spanish lexicon entries
  *
- * @language es
+ * @language en
  * @package modx
  * @subpackage lexicon
  */

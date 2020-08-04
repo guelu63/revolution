@@ -4,7 +4,7 @@
  *
  * @package modx
  * @subpackage lexicon
- * @language es
+ * @language en
  */
 $_lang['dashboard'] = 'Resumen';
 $_lang['dashboard_add'] = 'Añadir Tablero';
